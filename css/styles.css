@@ -23,6 +23,7 @@ body {
 
 link {
     text-decoration: none;
+    color: var(--spanLogo);
 }
 
 .span-style {
@@ -32,6 +33,7 @@ link {
 
 .list {
     list-style: none;
+    
 }
 
 .nav-link-one {
@@ -44,10 +46,18 @@ link {
     text-decoration: none;
 }
 
-.nav-link-one:hover {
+.link-one {
+    text-decoration: none;
+}
+
+.link-one:hover {
     color: var(--link);
 }
 
-.nav-link-one:focus {
+.link-one:focus {
     color: var(--link);
+}
+
+.address {
+    font-style: normal;
 }
