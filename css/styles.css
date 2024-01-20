@@ -2,6 +2,7 @@
     --logo: #4d5ae5;
     --spanLogo: #2e2f42;
     --link: #2e2f42;
+    --hovercolor: #404bbf;
 }
 
 body {
@@ -51,11 +52,11 @@ link {
 }
 
 .link-one:hover {
-    color: var(--link);
+    color: var(--hovercolor);
 }
 
 .link-one:focus {
-    color: var(--link);
+    color: var(--hovercolor);
 }
 
 .address {
