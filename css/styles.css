@@ -80,7 +80,7 @@ link {
 }
 
 .section-one {
-    color: var(--sectionColor);
+    background-color: var(--sectionColor);
 }
 
 .section-header {
