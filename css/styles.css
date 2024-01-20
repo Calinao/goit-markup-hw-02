@@ -203,5 +203,6 @@ link {
 }
 
 .portfolio-list-btn:focus {
+    color: #FFFFFF;
     background-color: var(--hovercolor);
 }
