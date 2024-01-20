@@ -1,6 +1,7 @@
 :root {
     --logo: #4d5ae5;
     --spanLogo: #2e2f42;
+    --link: #2e2f42;
 }
 
 body {
@@ -24,11 +25,29 @@ link {
     text-decoration: none;
 }
 
-span {
+.span-style {
     color: var(--spanLogo);
 }
 
 
-list {
+.list {
     list-style: none;
+}
+
+.nav-link-one {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: .02em;
+    color: var(--spanLogo);
+    text-decoration: none;
+}
+
+.nav-link-one:hover {
+    color: var(--link);
+}
+
+.nav-link-one:focus {
+    color: var(--link);
 }
