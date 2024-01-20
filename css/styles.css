@@ -25,5 +25,10 @@ link {
 }
 
 span {
+    color: var(--spanLogo);
+}
 
+
+list {
+    list-style: none;
 }
