@@ -177,3 +177,7 @@ link {
     line-height: 1.5;
     letter-spacing: .02em;
 }
+
+.footer-span-style {
+    color: var(--footerText);
+}
