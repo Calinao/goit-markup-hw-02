@@ -3,6 +3,7 @@
     --spanLogo: #2e2f42;
     --link: #2e2f42;
     --hovercolor: #404bbf;
+    --addressLink: #434455;
 }
 
 body {
@@ -57,6 +58,19 @@ link {
 }
 
 .link-one:focus {
+    color: var(--hovercolor);
+}
+
+.link-add {
+    text-decoration: none;
+    color: var(--addressLink);
+}
+
+.link-add:hover {
+    color: var(--hovercolor);
+}
+
+.link-add:focus {
     color: var(--hovercolor);
 }
 
