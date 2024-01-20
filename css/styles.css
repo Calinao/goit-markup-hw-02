@@ -5,6 +5,7 @@
     --hovercolor: #404bbf;
     --addressLink: #434455;
     --sectionColor: #2e2f42;
+    --footerText: #F4F4FD;
 }
 
 body {
@@ -163,6 +164,16 @@ link {
 
 .p-list-item-four {
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .02em;
+}
+
+.index-footer {
+    background-color: var(--sectionColor);
+}
+
+.footer-text {
+    color: var(--footerText);
     line-height: 1.5;
     letter-spacing: .02em;
 }
