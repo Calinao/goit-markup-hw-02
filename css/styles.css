@@ -123,3 +123,12 @@ link {
     line-height: 1.5;
     letter-spacing: .02em;
 }
+
+.section-header-three {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: .02em;
+    color: var(--sectionColor);
+    text-transform: capitalize  ;
+}
