@@ -16,4 +16,5 @@ body {
     letter-spacing: .03em;
     text-transform: uppercase;
     color: var(--logo-color);
+    text-decoration: none;
 }
