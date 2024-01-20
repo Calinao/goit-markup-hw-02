@@ -206,3 +206,22 @@ link {
     color: #FFFFFF;
     background-color: var(--hovercolor);
 }
+
+.portfolio-link-lists {
+    text-decoration: none;
+}
+
+.portfolio-link-lists-h2 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: .02em;
+    color: var(--sectionColor);
+}
+
+.portfolio-link-lists-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .02em;
+    color: var(--addressLink);
+}
