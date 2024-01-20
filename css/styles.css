@@ -49,6 +49,7 @@ link {
 
 .link-one {
     text-decoration: none;
+    color: var(--spanLogo);
 }
 
 .link-one:hover {
